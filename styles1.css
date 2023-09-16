@@ -1,0 +1,74 @@
+body {
+  background-image: url(jaker.jpg);
+  align-content: center;
+  
+}
+
+.login {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.Form {
+   width: 300px;
+   align-items: center;
+   height: 368px;
+   display: flex;
+   align-content: center;
+   flex-direction: column;
+   border: 5px;
+   backdrop-filter: blur(5px);
+   border-radius: 5px;
+   border: 1px solid;
+   text-align: center;
+   margin-left: 30px;
+   margin-top: 30px;
+   
+}
+
+.Form h4 {
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 500;
+    
+}
+
+.login input {
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: burlywood;
+    background: url(user-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    letter-spacing: 5px;
+  text-indent: 30px;
+  background-position: 15px;
+}
+
+.login button {
+    width: 75%;
+    height: 40px;
+    border-radius: 20px;
+    background: burlywood;
+    cursor: pointer;
+    color: black;
+}
+
+.login input:nth-child(2) {
+   background:url(lock-solid.svg);
+
+
+}
+
+.login input::placeholder {
+ font-size: 14px;
+ color: black;
+ 
+}
+
